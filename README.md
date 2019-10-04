@@ -28,9 +28,12 @@ c)
 insertBetween will first loop through the list, trying to find the correct posision of id1 and id2, then it will validate if id1 appears before id2, if yes, the method will set id1's next node and id2's prev node to the new node. Also set the new node's next/prev accordingly
 
 d)
-QueueADT is implemented as firt in first out, and using capcacity to track the capacity of this queue. If the list's size equals to the capacity, isFull will return true. If the list's size equals to 0, isEmpty will return true. size method will return the list's length. enQueue will add one element to the first of the list using addFirst method. Same logic, deQueue will remove the first element of the list using deleteFirst.
+QueueADT is implemented as firt in first out, and using capcacity to track the capacity of this queue. If the list's size equals to the capacity, isFull will return true. If the list's size equals to 0, isEmpty will return true. size method will return the list's length. enQueue will add one element to the first of the list using addFirst method. Same logic, deQueue will remove the first element of the list using deleteFirst. For peek(), it will call deletFirst first to get the front node and then addFirst to add the node back
+
+e)
+StackADT is implemented as last in first out, and using capcacity to track the capacity of this queue. If the list's size equals to the capacity, isFull will return true. If the list's size equals to 0, isEmpty will return true. size method will return the list's length. push will add one element to the rear of the list using addLast method. Same logic, pop will remove the last element of the list using deleteLast. For peek(), it will call deletLast first to get the rear node and then addLast to add the node back
 
 
 
-Stack1: BCFEHGA
-Stack2: ABC**DE*F***
+Stack1 will output BCFEHGA
+Stack2 will need to push the element following the order ABC**DE*F***, * means pop() and letters means push()
