@@ -22,7 +22,13 @@ calculateCost loop from the front of the list to find the correct Trip node and 
 averageCost loop from the front of the list and sum all the cost of the Trip objects
 
 b)
-convertToList loop throught the array
+convertToList loop through the array and put each element having cost greater than 100 of the array as a node at the end of the list
+
+c)
+insertBetween will first loop through the list, trying to find the correct posision of id1 and id2, then it will validate if id1 appears before id2, if yes, the method will set id1's next node and id2's prev node to the new node. Also set the new node's next/prev accordingly
+
+d)
+QueueADT is implemented as firt in first out, and using capcacity to track the capacity of this queue. If the list's size equals to the capacity, isFull will return true. If the list's size equals to 0, isEmpty will return true. size method will return the list's length. enQueue will add one element to the first of the list using addFirst method. Same logic, deQueue will remove the first element of the list using deleteFirst.
 
 
 
