@@ -1,6 +1,8 @@
 package du;
 
 /**
+ * TestConvertToList to test all scenario of convertToList method.
+ * 
  * @author Xiaoxue Du
  *
  */

@@ -4,6 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * DLinkedListADT implemented all methods in pseudo code.
+ * Also implemented additional methods according the requirement.
+ * 
  * @author Xiaoxue Du
  *
  */
@@ -139,7 +142,9 @@ public class DLinkedListADT
 		}
 	}
 
-	public double calculatCost(int id)
+	//Time complexity: O(n)
+	//Space complexity: O(1)
+	public double calculateCost(int id)
 	{
 		Node node = front;
 		while (node != null)
@@ -153,6 +158,8 @@ public class DLinkedListADT
 		return 0;
 	}
 
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public double averageCost()
 	{
 		double cost = 0;
@@ -165,6 +172,8 @@ public class DLinkedListADT
 		return cost;
 	}
 
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public static DLinkedListADT convertToList(Trip[] trips) throws Exception
 	{
 		if (trips == null || trips.length == 0 )
@@ -185,6 +194,8 @@ public class DLinkedListADT
 		return dLinkedListADT;
 	}
 
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public void insertBetween(int id1, int id2, Trip trip) throws Exception
 	{
 		if (front == null)

@@ -1,6 +1,8 @@
 package du;
 
 /**
+ * TestDLinkedList to test all scenario of DlinkedListADT.
+ * 
  * @author Xiaoxue Du
  *
  */
@@ -28,7 +30,7 @@ public class TestDLinkedList
 		dLinkedListADT.printNextList();
 		dLinkedListADT.addFirst(tripDuplicate);
 		dLinkedListADT.printNextList();
-		System.out.println(dLinkedListADT.calculatCost(1));
+		System.out.println(dLinkedListADT.calculateCost(1));
 		System.out.println(dLinkedListADT.averageCost());
 		dLinkedListADT.deleteAll();
 		System.out.println("size of the list: " + dLinkedListADT.size());

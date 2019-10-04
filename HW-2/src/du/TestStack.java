@@ -1,10 +1,12 @@
 package du;
 
 /**
+ * TestStack to test all scenario of StackADT.
+ * 
  * @author Xiaoxue Du
  *
  */
-public class TestStackADT
+public class TestStack
 {
 	public static void main(String[] args) throws Exception
 	{

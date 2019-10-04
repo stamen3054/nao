@@ -1,6 +1,9 @@
 package du;
 
 /**
+ * StackADT implemented all methods in pseudo code.
+ * Also implemented additional methods according the requirement.
+ * 
  * @author Xiaoxue Du
  *
  */
@@ -19,6 +22,8 @@ public class StackADT
 		capacity = min * 2;
 	}
 	
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public boolean isFull()
 	{
 		if (items.size() == capacity)
@@ -28,6 +33,8 @@ public class StackADT
 		return false;
 	}
 
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public boolean isEmpty()
 	{
 		if (items.size() == 0)
@@ -37,6 +44,8 @@ public class StackADT
 		return false;
 	}
 
+	//Time complexity: O(1)
+	//Space complexity: O(1)
 	public void push(Trip trip) throws Exception
 	{
 		if (isFull())
@@ -46,6 +55,8 @@ public class StackADT
 		items.addLast(trip);
 	}
 
+	//Time complexity: O(1)
+	//Space complexity: O(1)
 	public Trip pop() throws Exception
 	{
 		if (isEmpty())
@@ -55,11 +66,15 @@ public class StackADT
 		return items.deleteLast();
 	}
 	
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public int size()
 	{
 		return items.size();
 	}
 	
+	//Time complexity: O(1)
+	//Space complexity: O(1)
 	public Trip peek() throws Exception
 	{
 		Trip trip = items.deleteLast();
@@ -67,6 +82,8 @@ public class StackADT
 		return trip;
 	}
 	
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public void printQueue()
 	{
 		items.printNextList();

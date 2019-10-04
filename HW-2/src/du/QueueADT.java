@@ -1,6 +1,9 @@
 package du;
 
 /**
+ * QueueADT implemented all methods in pseudo code.
+ * Also implemented additional methods according the requirement.
+ * 
  * @author Xiaoxue Du
  *
  */
@@ -19,6 +22,8 @@ public class QueueADT
 		capacity = min * 2;
 	}
 
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public boolean isFull()
 	{
 		if (items.size() == capacity)
@@ -27,7 +32,10 @@ public class QueueADT
 		}
 		return false;
 	}
-
+	
+	
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public boolean isEmpty()
 	{
 		if (items.size() == 0)
@@ -37,6 +45,8 @@ public class QueueADT
 		return false;
 	}
 
+	//Time complexity: O(1)
+	//Space complexity: O(1)
 	public void enQueue(Trip trip) throws Exception
 	{
 		if (isFull())
@@ -45,7 +55,9 @@ public class QueueADT
 		}
 		items.addLast(trip);
 	}
-
+	
+	//Time complexity: O(1)
+	//Space complexity: O(1)
 	public Trip deQueue() throws Exception
 	{
 		if (isEmpty())
@@ -55,11 +67,15 @@ public class QueueADT
 		return items.deleteFirst();
 	}
 	
+	//Time complexity: O(1)
+	//Space complexity: O(1)
 	public int size()
 	{
 		return items.size();
 	}
 	
+	//Time complexity: O(1)
+	//Space complexity: O(1)
 	public Trip peek() throws Exception
 	{
 		Trip trip = items.deleteFirst();
@@ -67,6 +83,8 @@ public class QueueADT
 		return trip;
 	}
 	
+	//Time complexity: O(n)
+	//Space complexity: O(1)
 	public void printQueue()
 	{
 		items.printNextList();

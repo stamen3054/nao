@@ -1,10 +1,12 @@
 package du;
 
 /**
+ * TestQueue to test all scenario of QueueADT.
+ * 
  * @author Xiaoxue Du
  *
  */
-public class TestQueueADT
+public class TestQueue
 {
 
 	public static void main(String[] args) throws Exception

@@ -1,10 +1,12 @@
 package du;
 
 /**
+ * TestLisInsert to test all scenario of insertBetween method
+ * 
  * @author Xiaoxue Du
  *
  */
-public class TestLisInsert
+public class TestListInsert
 {
 
 	public static void main(String[] args) throws Exception

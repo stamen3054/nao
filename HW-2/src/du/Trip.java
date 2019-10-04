@@ -1,6 +1,8 @@
 package du;
 
 /**
+ * Trip object to hold id, days, and fee attributes.
+ * 
  * @author Xiaoxue Du
  *
  */
