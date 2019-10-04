@@ -33,7 +33,18 @@ QueueADT is implemented as firt in first out, and using capcacity to track the c
 e)
 StackADT is implemented as last in first out, and using capcacity to track the capacity of this queue. If the list's size equals to the capacity, isFull will return true. If the list's size equals to 0, isEmpty will return true. size method will return the list's length. push will add one element to the rear of the list using addLast method. Same logic, pop will remove the last element of the list using deleteLast. For peek(), it will call deletLast first to get the rear node and then addLast to add the node back
 
-
-
 Stack1 will output BCFEHGA
 Stack2 will need to push the element following the order ABC**DE*F***, * means pop() and letters means push()
+
+TestDLinkedList
+  testing addFirst method with trip1, and 2. testing addLast method with trip3, and 4. testing printNextList. deleting first node, deleting last node, adding duplicate element, calling calculateCost, calling averageCost, deleting all element.
+  
+TestConverToList
+  passing in empty array, passing in normal array, passing in null array
+  
+TestListInsert
+  inserting trip4 between 1 and 3, inserting trip4 between 3 and 1, inserting trip4 between 1 and 5
+  
+TestQueue
+
+TestStack
