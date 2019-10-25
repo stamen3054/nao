@@ -1,4 +1,4 @@
-package du;
+package HW2;
 
 /**
  * TestDLinkedList to test all scenario of DlinkedListADT.

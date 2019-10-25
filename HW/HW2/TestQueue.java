@@ -1,4 +1,4 @@
-package du;
+package HW2;
 
 /**
  * TestQueue to test all scenario of QueueADT.

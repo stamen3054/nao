@@ -1,4 +1,4 @@
-package du;
+package HW2;
 
 /**
  * TestStack to test all scenario of StackADT.

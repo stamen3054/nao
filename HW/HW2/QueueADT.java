@@ -1,4 +1,4 @@
-package du;
+package HW2;
 
 /**
  * QueueADT implemented all methods in pseudo code.

@@ -1,4 +1,4 @@
-package du;
+package HW2;
 
 /**
  * StackADT implemented all methods in pseudo code.

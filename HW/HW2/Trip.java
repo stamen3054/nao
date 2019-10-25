@@ -1,4 +1,4 @@
-package du;
+package HW2;
 
 /**
  * Trip object to hold id, days, and fee attributes.

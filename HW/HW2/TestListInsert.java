@@ -1,4 +1,4 @@
-package du;
+package HW2;
 
 /**
  * TestLisInsert to test all scenario of insertBetween method
