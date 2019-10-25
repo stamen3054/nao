@@ -22,7 +22,6 @@ public class BST
 
 	private Node insert(Node root, Trip trip)
 	{
-		size++;
 		if (root == null)
 		{
 			root = new Node(trip);
@@ -68,6 +67,7 @@ public class BST
 
 	public void insertTrip(Trip trip)
 	{
+		size++;
 		root = insert(root, trip);
 	}
 
