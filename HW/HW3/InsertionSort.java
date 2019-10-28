@@ -1,10 +1,9 @@
 package HW3;
 
-import sun.tools.jar.resources.jar;
-
 /**
+ * InsertionSort implements MySort interface
+ * 
  * @author Xiaoxue Du
- *
  */
 public class InsertionSort implements MySort
 {

@@ -1,8 +1,14 @@
 package HW3;
 
+/**
+ * Tests for @{@link BST#returnAverage()}, {@link BST#findCost(int)} and
+ * {@link BST#insertTrip(Trip)}
+ * 
+ * @author Xiaoxue Du
+ *
+ */
 public class TestBST
 {
-
 	public static void main(String[] args)
 	{
 		Trip trip1 = new Trip(110, 10, 30);

@@ -1,5 +1,11 @@
 package HW3;
 
+/**
+ * Trip object
+ * 
+ * @author Xiaoxue Du
+ *
+ */
 public class Trip
 {
 	int id;

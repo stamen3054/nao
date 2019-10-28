@@ -1,10 +1,9 @@
 package HW3;
 
-import sun.security.util.Length;
-
 /**
+ * SelectionSort implements MySort interface.
+ * 
  * @author XiaoxueDu
- *
  */
 public class SelectionSort implements MySort
 {

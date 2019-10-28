@@ -1,5 +1,10 @@
 package HW3;
 
+/**
+ * BST structure
+ * 
+ * @author Xiaoxue Du
+ */
 public class BST
 {
 	private Node root;
@@ -79,7 +84,7 @@ public class BST
 	public double returnAverage()
 	{
 		double sum = calculateSum(root);
-		return sum/size;
+		return sum / size;
 	}
 
 	private double calculateSum(Node root)
